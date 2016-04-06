@@ -16,6 +16,39 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //定义设备大小
+        self.window = UIWindow(frame: CGRect(x: 0, y: 0, width: SCREEN_WIDTH, height: SCREEN_HEIGHT))
+        //底部导航栏
+        let tabbarController = UITabBarController()
+        
+        //定义各个界面 Navagation 首选显示
+        let rankController = UINavigationController(rootViewController: RankViewController())
+        let searchController = UINavigationController(rootViewController: SearchViewController())
+        let pushController = UINavigationController(rootViewController: PushViewController())
+        let circleController = UINavigationController(rootViewController: CircleViewController())
+        let moreController = UINavigationController(rootViewController: MoreViewController())
+        
+        //定义rankController，searchController，pushController，circleController，moreController界面talbebarItem
+        tabbarController.viewControllers = [rankController,searchController,pushController,circleController,moreController]
+        //定义Item1 标题  图片 选中后的图片，后面以此类推
+        let tabbarItem1 = UITabBarItem(title: "排行榜", image: UIImage(named: "bio"), selectedImage: UIImage(named: "bio_red"))
+        let tabbarItem2 = UITabBarItem(title: "发现", image: UIImage(named: "timer 2"), selectedImage: UIImage(named: "timer 2_red"))
+        let tabbarItem3 = UITabBarItem(title: "", image: UIImage(named: "pencil"), selectedImage: UIImage(named: "pencil_red"))
+        let tabbarItem4 = UITabBarItem(title: "圈子", image: UIImage(named: "users two-2"), selectedImage: UIImage(named: "users two-2_red"))
+        let tabbarItem5 = UITabBarItem(title: "更多", image: UIImage(named: "more"), selectedImage: UIImage(named: "more_red"))
+        
+        //
+        rankController.tabBarItem = tabbarItem1
+        searchController.tabBarItem = tabbarItem2
+        pushController.tabBarItem = tabbarItem3
+        circleController.tabBarItem = tabbarItem4
+        moreController.tabBarItem = tabbarItem5
+        //设置tablebar字体颜色
+        rankController.tabBarController?.tabBar.tintColor = MAIN_RED
+        //将页面呈现
+        self.window?.rootViewController = tabbarController
+        self.window?.makeKeyAndVisible()
         return true
     }
 
