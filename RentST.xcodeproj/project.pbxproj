@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63270A4A446A93A338AF8C35 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F021DA032906EF0938BD12B /* libPods.a */; };
 		D1201AA51CB500FF00551E1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1201AA41CB500FF00551E1B /* AppDelegate.swift */; };
-		D1201AA71CB500FF00551E1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1201AA61CB500FF00551E1B /* ViewController.swift */; };
-		D1201AAA1CB500FF00551E1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1201AA81CB500FF00551E1B /* Main.storyboard */; };
 		D1201AAC1CB500FF00551E1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1201AAB1CB500FF00551E1B /* Assets.xcassets */; };
 		D1201AAF1CB500FF00551E1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1201AAD1CB500FF00551E1B /* LaunchScreen.storyboard */; };
 		D1201ABA1CB5010000551E1B /* RentSTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1201AB91CB5010000551E1B /* RentSTTests.swift */; };
 		D1201AC51CB5010000551E1B /* RentSTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1201AC41CB5010000551E1B /* RentSTUITests.swift */; };
+		D1201AD31CB5011200551E1B /* PodFile in Resources */ = {isa = PBXBuildFile; fileRef = D1201AD21CB5011200551E1B /* PodFile */; };
+		D1201AD71CB504FA00551E1B /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1201AD61CB504FA00551E1B /* config.swift */; };
+		D1201AE01CB5064500551E1B /* RankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1201ADF1CB5064500551E1B /* RankViewController.swift */; };
+		D1201AE21CB5065700551E1B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1201AE11CB5065700551E1B /* SearchViewController.swift */; };
+		D1201AE41CB5066800551E1B /* PushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1201AE31CB5066800551E1B /* PushViewController.swift */; };
+		D1201AE61CB5067500551E1B /* CircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1201AE51CB5067500551E1B /* CircleViewController.swift */; };
+		D1201AE81CB5068100551E1B /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1201AE71CB5068100551E1B /* MoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F021DA032906EF0938BD12B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5972E8882E4584C687BA0757 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D1201AA11CB500FF00551E1B /* RentST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RentST.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1201AA41CB500FF00551E1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D1201AA61CB500FF00551E1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D1201AA91CB500FF00551E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1201AAB1CB500FF00551E1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1201AAE1CB500FF00551E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1201AB01CB500FF00551E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +53,15 @@
 		D1201AC01CB5010000551E1B /* RentSTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RentSTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1201AC41CB5010000551E1B /* RentSTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentSTUITests.swift; sourceTree = "<group>"; };
 		D1201AC61CB5010000551E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1201AD21CB5011200551E1B /* PodFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PodFile; sourceTree = "<group>"; };
+		D1201AD51CB5040300551E1B /* bridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridging.h; sourceTree = "<group>"; };
+		D1201AD61CB504FA00551E1B /* config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
+		D1201ADF1CB5064500551E1B /* RankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankViewController.swift; sourceTree = "<group>"; };
+		D1201AE11CB5065700551E1B /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		D1201AE31CB5066800551E1B /* PushViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushViewController.swift; sourceTree = "<group>"; };
+		D1201AE51CB5067500551E1B /* CircleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleViewController.swift; sourceTree = "<group>"; };
+		D1201AE71CB5068100551E1B /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		F323F78463BDE8CF257E84DE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63270A4A446A93A338AF8C35 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +90,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A5DDA568FB1D51F944F9939 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F021DA032906EF0938BD12B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75831783A6B25209FBA0D28A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5972E8882E4584C687BA0757 /* Pods.debug.xcconfig */,
+				F323F78463BDE8CF257E84DE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D1201A981CB500FF00551E1B = {
 			isa = PBXGroup;
 			children = (
+				D1201AD51CB5040300551E1B /* bridging.h */,
+				D1201AD21CB5011200551E1B /* PodFile */,
 				D1201AA31CB500FF00551E1B /* RentST */,
 				D1201AB81CB5010000551E1B /* RentSTTests */,
 				D1201AC31CB5010000551E1B /* RentSTUITests */,
 				D1201AA21CB500FF00551E1B /* Products */,
+				75831783A6B25209FBA0D28A /* Pods */,
+				3A5DDA568FB1D51F944F9939 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +134,16 @@
 		D1201AA31CB500FF00551E1B /* RentST */ = {
 			isa = PBXGroup;
 			children = (
+				D1201ADC1CB5058700551E1B /* more */,
+				D1201ADB1CB5057800551E1B /* circle */,
+				D1201ADA1CB5057100551E1B /* push */,
+				D1201AD91CB5056900551E1B /* search */,
+				D1201AD81CB5055A00551E1B /* rank */,
 				D1201AA41CB500FF00551E1B /* AppDelegate.swift */,
-				D1201AA61CB500FF00551E1B /* ViewController.swift */,
-				D1201AA81CB500FF00551E1B /* Main.storyboard */,
 				D1201AAB1CB500FF00551E1B /* Assets.xcassets */,
 				D1201AAD1CB500FF00551E1B /* LaunchScreen.storyboard */,
 				D1201AB01CB500FF00551E1B /* Info.plist */,
+				D1201AD61CB504FA00551E1B /* config.swift */,
 			);
 			path = RentST;
 			sourceTree = "<group>";
@@ -125,6 +166,46 @@
 			path = RentSTUITests;
 			sourceTree = "<group>";
 		};
+		D1201AD81CB5055A00551E1B /* rank */ = {
+			isa = PBXGroup;
+			children = (
+				D1201ADF1CB5064500551E1B /* RankViewController.swift */,
+			);
+			name = rank;
+			sourceTree = "<group>";
+		};
+		D1201AD91CB5056900551E1B /* search */ = {
+			isa = PBXGroup;
+			children = (
+				D1201AE11CB5065700551E1B /* SearchViewController.swift */,
+			);
+			name = search;
+			sourceTree = "<group>";
+		};
+		D1201ADA1CB5057100551E1B /* push */ = {
+			isa = PBXGroup;
+			children = (
+				D1201AE31CB5066800551E1B /* PushViewController.swift */,
+			);
+			name = push;
+			sourceTree = "<group>";
+		};
+		D1201ADB1CB5057800551E1B /* circle */ = {
+			isa = PBXGroup;
+			children = (
+				D1201AE51CB5067500551E1B /* CircleViewController.swift */,
+			);
+			name = circle;
+			sourceTree = "<group>";
+		};
+		D1201ADC1CB5058700551E1B /* more */ = {
+			isa = PBXGroup;
+			children = (
+				D1201AE71CB5068100551E1B /* MoreViewController.swift */,
+			);
+			name = more;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1201AC91CB5010000551E1B /* Build configuration list for PBXNativeTarget "RentST" */;
 			buildPhases = (
+				2FA91EDFEAD46D120A080AC4 /* Check Pods Manifest.lock */,
 				D1201A9D1CB500FF00551E1B /* Sources */,
 				D1201A9E1CB500FF00551E1B /* Frameworks */,
 				D1201A9F1CB500FF00551E1B /* Resources */,
+				AE39ADDD5458A75EA41A1EED /* Embed Pods Frameworks */,
+				1E99322FE8A8180C1EFCE652 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,7 +315,7 @@
 			files = (
 				D1201AAF1CB500FF00551E1B /* LaunchScreen.storyboard in Resources */,
 				D1201AAC1CB500FF00551E1B /* Assets.xcassets in Resources */,
-				D1201AAA1CB500FF00551E1B /* Main.storyboard in Resources */,
+				D1201AD31CB5011200551E1B /* PodFile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +335,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E99322FE8A8180C1EFCE652 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FA91EDFEAD46D120A080AC4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE39ADDD5458A75EA41A1EED /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D1201A9D1CB500FF00551E1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1201AA71CB500FF00551E1B /* ViewController.swift in Sources */,
+				D1201AE81CB5068100551E1B /* MoreViewController.swift in Sources */,
+				D1201AD71CB504FA00551E1B /* config.swift in Sources */,
 				D1201AA51CB500FF00551E1B /* AppDelegate.swift in Sources */,
+				D1201AE61CB5067500551E1B /* CircleViewController.swift in Sources */,
+				D1201AE21CB5065700551E1B /* SearchViewController.swift in Sources */,
+				D1201AE41CB5066800551E1B /* PushViewController.swift in Sources */,
+				D1201AE01CB5064500551E1B /* RankViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +430,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D1201AA81CB500FF00551E1B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D1201AA91CB500FF00551E1B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D1201AAD1CB500FF00551E1B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -353,6 +482,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = bridging.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -392,6 +522,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = bridging.h;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -399,6 +530,7 @@
 		};
 		D1201ACA1CB5010000551E1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5972E8882E4584C687BA0757 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RentST/Info.plist;
@@ -410,6 +542,7 @@
 		};
 		D1201ACB1CB5010000551E1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F323F78463BDE8CF257E84DE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RentST/Info.plist;
@@ -484,6 +617,7 @@
 				D1201ACB1CB5010000551E1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1201ACC1CB5010000551E1B /* Build configuration list for PBXNativeTarget "RentSTTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +626,7 @@
 				D1201ACE1CB5010000551E1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1201ACF1CB5010000551E1B /* Build configuration list for PBXNativeTarget "RentSTUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +635,7 @@
 				D1201AD11CB5010000551E1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
