@@ -4,7 +4,7 @@
 //
 //  Created by Justine on 16/4/6.
 //  Copyright © 2016年 hxb. All rights reserved.
-//
+//fix not text is test lable
 
 import UIKit
 
