@@ -20,6 +20,7 @@
 		D1201AE41CB5066800551E1B /* PushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1201AE31CB5066800551E1B /* PushViewController.swift */; };
 		D1201AE61CB5067500551E1B /* CircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1201AE51CB5067500551E1B /* CircleViewController.swift */; };
 		D1201AE81CB5068100551E1B /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1201AE71CB5068100551E1B /* MoreViewController.swift */; };
+		D13527521CB65F55004754E7 /* GeneralFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13527511CB65F55004754E7 /* GeneralFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		D1201AE51CB5067500551E1B /* CircleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleViewController.swift; sourceTree = "<group>"; };
 		D1201AE71CB5068100551E1B /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		D135273C1CB620E8004754E7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		D13527511CB65F55004754E7 /* GeneralFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralFactory.swift; sourceTree = "<group>"; };
 		F323F78463BDE8CF257E84DE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,6 +137,7 @@
 		D1201AA31CB500FF00551E1B /* RentST */ = {
 			isa = PBXGroup;
 			children = (
+				D135274C1CB65EE6004754E7 /* pushNewBook */,
 				D1201ADC1CB5058700551E1B /* more */,
 				D1201ADB1CB5057800551E1B /* circle */,
 				D1201ADA1CB5057100551E1B /* push */,
@@ -321,6 +324,38 @@
 			sourceTree = "<group>";
 		};
 		D135274B1CB62BD0004754E7 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = M;
+			sourceTree = "<group>";
+		};
+		D135274C1CB65EE6004754E7 /* pushNewBook */ = {
+			isa = PBXGroup;
+			children = (
+				D13527501CB65F09004754E7 /* M */,
+				D135274F1CB65F08004754E7 /* V */,
+				D135274D1CB65F02004754E7 /* C */,
+			);
+			name = pushNewBook;
+			sourceTree = "<group>";
+		};
+		D135274D1CB65F02004754E7 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				D13527511CB65F55004754E7 /* GeneralFactory.swift */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		D135274F1CB65F08004754E7 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = V;
+			sourceTree = "<group>";
+		};
+		D13527501CB65F09004754E7 /* M */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -514,6 +549,7 @@
 				D1201AA51CB500FF00551E1B /* AppDelegate.swift in Sources */,
 				D1201AE61CB5067500551E1B /* CircleViewController.swift in Sources */,
 				D1201AE21CB5065700551E1B /* SearchViewController.swift in Sources */,
+				D13527521CB65F55004754E7 /* GeneralFactory.swift in Sources */,
 				D1201AE41CB5066800551E1B /* PushViewController.swift in Sources */,
 				D1201AE01CB5064500551E1B /* RankViewController.swift in Sources */,
 			);
