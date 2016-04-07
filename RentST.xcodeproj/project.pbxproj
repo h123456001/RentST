@@ -61,6 +61,7 @@
 		D1201AE31CB5066800551E1B /* PushViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushViewController.swift; sourceTree = "<group>"; };
 		D1201AE51CB5067500551E1B /* CircleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleViewController.swift; sourceTree = "<group>"; };
 		D1201AE71CB5068100551E1B /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		D135273C1CB620E8004754E7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		F323F78463BDE8CF257E84DE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -169,7 +170,9 @@
 		D1201AD81CB5055A00551E1B /* rank */ = {
 			isa = PBXGroup;
 			children = (
-				D1201ADF1CB5064500551E1B /* RankViewController.swift */,
+				D135274B1CB62BD0004754E7 /* M */,
+				D135274A1CB62BCF004754E7 /* V */,
+				D13527491CB62BCE004754E7 /* C */,
 			);
 			name = rank;
 			sourceTree = "<group>";
@@ -177,7 +180,9 @@
 		D1201AD91CB5056900551E1B /* search */ = {
 			isa = PBXGroup;
 			children = (
-				D1201AE11CB5065700551E1B /* SearchViewController.swift */,
+				D13527481CB62BCB004754E7 /* M */,
+				D13527471CB62BCA004754E7 /* V */,
+				D13527461CB62BC9004754E7 /* C */,
 			);
 			name = search;
 			sourceTree = "<group>";
@@ -185,7 +190,9 @@
 		D1201ADA1CB5057100551E1B /* push */ = {
 			isa = PBXGroup;
 			children = (
-				D1201AE31CB5066800551E1B /* PushViewController.swift */,
+				D13527451CB62BC6004754E7 /* M */,
+				D13527441CB62BC5004754E7 /* V */,
+				D13527431CB62BC3004754E7 /* C */,
 			);
 			name = push;
 			sourceTree = "<group>";
@@ -193,7 +200,9 @@
 		D1201ADB1CB5057800551E1B /* circle */ = {
 			isa = PBXGroup;
 			children = (
-				D1201AE51CB5067500551E1B /* CircleViewController.swift */,
+				D13527421CB62BBE004754E7 /* M */,
+				D13527411CB62BBD004754E7 /* V */,
+				D13527401CB62BBB004754E7 /* C */,
 			);
 			name = circle;
 			sourceTree = "<group>";
@@ -201,9 +210,121 @@
 		D1201ADC1CB5058700551E1B /* more */ = {
 			isa = PBXGroup;
 			children = (
-				D1201AE71CB5068100551E1B /* MoreViewController.swift */,
+				D135273F1CB62BAD004754E7 /* M */,
+				D135273E1CB62BA7004754E7 /* V */,
+				D135273D1CB62B98004754E7 /* C */,
 			);
 			name = more;
+			sourceTree = "<group>";
+		};
+		D135273D1CB62B98004754E7 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				D1201AE71CB5068100551E1B /* MoreViewController.swift */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		D135273E1CB62BA7004754E7 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = V;
+			sourceTree = "<group>";
+		};
+		D135273F1CB62BAD004754E7 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = M;
+			sourceTree = "<group>";
+		};
+		D13527401CB62BBB004754E7 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				D1201AE51CB5067500551E1B /* CircleViewController.swift */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		D13527411CB62BBD004754E7 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = V;
+			sourceTree = "<group>";
+		};
+		D13527421CB62BBE004754E7 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = M;
+			sourceTree = "<group>";
+		};
+		D13527431CB62BC3004754E7 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				D1201AE31CB5066800551E1B /* PushViewController.swift */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		D13527441CB62BC5004754E7 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = V;
+			sourceTree = "<group>";
+		};
+		D13527451CB62BC6004754E7 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = M;
+			sourceTree = "<group>";
+		};
+		D13527461CB62BC9004754E7 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				D1201AE11CB5065700551E1B /* SearchViewController.swift */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		D13527471CB62BCA004754E7 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = V;
+			sourceTree = "<group>";
+		};
+		D13527481CB62BCB004754E7 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = M;
+			sourceTree = "<group>";
+		};
+		D13527491CB62BCE004754E7 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				D1201ADF1CB5064500551E1B /* RankViewController.swift */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		D135274A1CB62BCF004754E7 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = V;
+			sourceTree = "<group>";
+		};
+		D135274B1CB62BD0004754E7 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = M;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -434,6 +555,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				D1201AAE1CB500FF00551E1B /* Base */,
+				D135273C1CB620E8004754E7 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

@@ -12,7 +12,14 @@ class RankViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        //设置Rank界面的背景色
+        self.view.backgroundColor = UIColor.whiteColor()
+        //定义一个标签,并布局
+        let lable = UILabel(frame: CGRect(x: SCREEN_WIDTH/4, y: SCREEN_HEIGHT/2, width: 200, height: 60))
+        lable.text = "我是lable。。。。。。。。。1"
+        lable.sizeToFit()
+        lable.textColor = UIColor.blackColor()
+        self.view.addSubview(lable)
         // Do any additional setup after loading the view.
     }
 
