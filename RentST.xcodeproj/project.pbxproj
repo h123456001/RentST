@@ -21,6 +21,7 @@
 		D1201AE61CB5067500551E1B /* CircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1201AE51CB5067500551E1B /* CircleViewController.swift */; };
 		D1201AE81CB5068100551E1B /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1201AE71CB5068100551E1B /* MoreViewController.swift */; };
 		D13527521CB65F55004754E7 /* GeneralFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13527511CB65F55004754E7 /* GeneralFactory.swift */; };
+		D13527551CB6655F004754E7 /* pushNewBookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13527541CB6655F004754E7 /* pushNewBookController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		D1201AE71CB5068100551E1B /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		D135273C1CB620E8004754E7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		D13527511CB65F55004754E7 /* GeneralFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralFactory.swift; sourceTree = "<group>"; };
+		D13527541CB6655F004754E7 /* pushNewBookController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pushNewBookController.swift; sourceTree = "<group>"; };
 		F323F78463BDE8CF257E84DE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +139,7 @@
 		D1201AA31CB500FF00551E1B /* RentST */ = {
 			isa = PBXGroup;
 			children = (
+				D13527531CB66520004754E7 /* Factory */,
 				D135274C1CB65EE6004754E7 /* pushNewBook */,
 				D1201ADC1CB5058700551E1B /* more */,
 				D1201ADB1CB5057800551E1B /* circle */,
@@ -343,7 +346,7 @@
 		D135274D1CB65F02004754E7 /* C */ = {
 			isa = PBXGroup;
 			children = (
-				D13527511CB65F55004754E7 /* GeneralFactory.swift */,
+				D13527541CB6655F004754E7 /* pushNewBookController.swift */,
 			);
 			name = C;
 			sourceTree = "<group>";
@@ -360,6 +363,14 @@
 			children = (
 			);
 			name = M;
+			sourceTree = "<group>";
+		};
+		D13527531CB66520004754E7 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				D13527511CB65F55004754E7 /* GeneralFactory.swift */,
+			);
+			name = Factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -545,6 +556,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1201AE81CB5068100551E1B /* MoreViewController.swift in Sources */,
+				D13527551CB6655F004754E7 /* pushNewBookController.swift in Sources */,
 				D1201AD71CB504FA00551E1B /* config.swift in Sources */,
 				D1201AA51CB500FF00551E1B /* AppDelegate.swift in Sources */,
 				D1201AE61CB5067500551E1B /* CircleViewController.swift in Sources */,
