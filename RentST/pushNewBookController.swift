@@ -12,6 +12,8 @@ class pushNewBookController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         //UIbutton当照片封面
         let coverbtn = UIButton(frame: CGRect(x: 10, y: 20, width: 114, height: 140))
         coverbtn.imageView?.image = UIImage(named: "star-icon")
@@ -20,6 +22,7 @@ class pushNewBookController: UIViewController {
         bookname.placeholder = "书名"
         bookname.borderActiveColor = UIColor.grayColor()
         bookname.borderInactiveColor = UIColor.grayColor()
+        bookname.keyboardType = .Default
         //UITextField当作者
         let bookwriter = HoshiTextField(frame: CGRect(x: 120, y: 80, width: SCREEN_WIDTH - 114-20, height: 40))
         bookwriter.placeholder = "作者"
