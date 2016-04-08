@@ -22,6 +22,8 @@
 		D1201AE81CB5068100551E1B /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1201AE71CB5068100551E1B /* MoreViewController.swift */; };
 		D13527521CB65F55004754E7 /* GeneralFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13527511CB65F55004754E7 /* GeneralFactory.swift */; };
 		D13527551CB6655F004754E7 /* pushNewBookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13527541CB6655F004754E7 /* pushNewBookController.swift */; };
+		D1E75D151CB7724700790FC1 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E75D141CB7724700790FC1 /* HoshiTextField.swift */; };
+		D1E75D181CB773FD00790FC1 /* TextFieldsEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E75D171CB773FD00790FC1 /* TextFieldsEffects.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,9 @@
 		D135273C1CB620E8004754E7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		D13527511CB65F55004754E7 /* GeneralFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralFactory.swift; sourceTree = "<group>"; };
 		D13527541CB6655F004754E7 /* pushNewBookController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pushNewBookController.swift; sourceTree = "<group>"; };
+		D1E75D141CB7724700790FC1 /* HoshiTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoshiTextField.swift; sourceTree = "<group>"; };
+		D1E75D161CB773AD00790FC1 /* TextFieldEffects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldEffects.h; sourceTree = "<group>"; };
+		D1E75D171CB773FD00790FC1 /* TextFieldsEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldsEffects.swift; sourceTree = "<group>"; };
 		F323F78463BDE8CF257E84DE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,6 +144,7 @@
 		D1201AA31CB500FF00551E1B /* RentST */ = {
 			isa = PBXGroup;
 			children = (
+				D1E75D131CB7723000790FC1 /* 3rdKit */,
 				D13527531CB66520004754E7 /* Factory */,
 				D135274C1CB65EE6004754E7 /* pushNewBook */,
 				D1201ADC1CB5058700551E1B /* more */,
@@ -373,6 +379,16 @@
 			name = Factory;
 			sourceTree = "<group>";
 		};
+		D1E75D131CB7723000790FC1 /* 3rdKit */ = {
+			isa = PBXGroup;
+			children = (
+				D1E75D161CB773AD00790FC1 /* TextFieldEffects.h */,
+				D1E75D171CB773FD00790FC1 /* TextFieldsEffects.swift */,
+				D1E75D141CB7724700790FC1 /* HoshiTextField.swift */,
+			);
+			name = 3rdKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -560,10 +576,12 @@
 				D1201AD71CB504FA00551E1B /* config.swift in Sources */,
 				D1201AA51CB500FF00551E1B /* AppDelegate.swift in Sources */,
 				D1201AE61CB5067500551E1B /* CircleViewController.swift in Sources */,
+				D1E75D181CB773FD00790FC1 /* TextFieldsEffects.swift in Sources */,
 				D1201AE21CB5065700551E1B /* SearchViewController.swift in Sources */,
 				D13527521CB65F55004754E7 /* GeneralFactory.swift in Sources */,
 				D1201AE41CB5066800551E1B /* PushViewController.swift in Sources */,
 				D1201AE01CB5064500551E1B /* RankViewController.swift in Sources */,
+				D1E75D151CB7724700790FC1 /* HoshiTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
