@@ -28,6 +28,7 @@ class pushNewBookController: UIViewController {
         bookwriter.placeholder = "作者"
         bookwriter.borderActiveColor = UIColor.grayColor()
         bookwriter.borderInactiveColor = UIColor.grayColor()
+        bookwriter.keyboardType = .Default
         
         self.view.addSubview(coverbtn)
         self.view.addSubview(bookname)
