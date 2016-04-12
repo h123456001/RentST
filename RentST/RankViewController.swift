@@ -16,8 +16,9 @@ class RankViewController: UIViewController {
         self.view.backgroundColor = UIColor.whiteColor()
         //定义一个标签,并布局
         let lable = UILabel(frame: CGRect(x: SCREEN_WIDTH/4, y: SCREEN_HEIGHT/2, width: 200, height: 60))
-        lable.text = "我是lable。。。。。。。。。1"
+        lable.text = "我是lable。。。"
         lable.sizeToFit()
+        lable.font = UIFont(name: MY_FONT, size: 17)
         lable.textColor = UIColor.blackColor()
         self.view.addSubview(lable)
         // Do any additional setup after loading the view.

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		63270A4A446A93A338AF8C35 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F021DA032906EF0938BD12B /* libPods.a */; };
+		D10884161CBBB7A40055311F /* PhotoPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10884151CBBB7A40055311F /* PhotoPickerViewController.swift */; };
 		D1201AA51CB500FF00551E1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1201AA41CB500FF00551E1B /* AppDelegate.swift */; };
 		D1201AAC1CB500FF00551E1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1201AAB1CB500FF00551E1B /* Assets.xcassets */; };
 		D1201AAF1CB500FF00551E1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1201AAD1CB500FF00551E1B /* LaunchScreen.storyboard */; };
@@ -22,6 +23,8 @@
 		D1201AE81CB5068100551E1B /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1201AE71CB5068100551E1B /* MoreViewController.swift */; };
 		D13527521CB65F55004754E7 /* GeneralFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13527511CB65F55004754E7 /* GeneralFactory.swift */; };
 		D13527551CB6655F004754E7 /* pushNewBookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13527541CB6655F004754E7 /* pushNewBookController.swift */; };
+		D137A6871CB8ACA50032E211 /* 隶变体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D137A6861CB8AB020032E211 /* 隶变体.ttf */; };
+		D137A68B1CB904390032E211 /* BookTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D137A68A1CB904390032E211 /* BookTitleView.swift */; };
 		D1E75D151CB7724700790FC1 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E75D141CB7724700790FC1 /* HoshiTextField.swift */; };
 		D1E75D181CB773FD00790FC1 /* TextFieldsEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E75D171CB773FD00790FC1 /* TextFieldsEffects.swift */; };
 /* End PBXBuildFile section */
@@ -46,6 +49,7 @@
 /* Begin PBXFileReference section */
 		0F021DA032906EF0938BD12B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5972E8882E4584C687BA0757 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D10884151CBBB7A40055311F /* PhotoPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPickerViewController.swift; sourceTree = "<group>"; };
 		D1201AA11CB500FF00551E1B /* RentST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RentST.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1201AA41CB500FF00551E1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1201AAB1CB500FF00551E1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -68,6 +72,8 @@
 		D135273C1CB620E8004754E7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		D13527511CB65F55004754E7 /* GeneralFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralFactory.swift; sourceTree = "<group>"; };
 		D13527541CB6655F004754E7 /* pushNewBookController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pushNewBookController.swift; sourceTree = "<group>"; };
+		D137A6861CB8AB020032E211 /* 隶变体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "隶变体.ttf"; sourceTree = "<group>"; };
+		D137A68A1CB904390032E211 /* BookTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTitleView.swift; sourceTree = "<group>"; };
 		D1E75D141CB7724700790FC1 /* HoshiTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoshiTextField.swift; sourceTree = "<group>"; };
 		D1E75D161CB773AD00790FC1 /* TextFieldEffects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldEffects.h; sourceTree = "<group>"; };
 		D1E75D171CB773FD00790FC1 /* TextFieldsEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldsEffects.swift; sourceTree = "<group>"; };
@@ -353,6 +359,7 @@
 			isa = PBXGroup;
 			children = (
 				D13527541CB6655F004754E7 /* pushNewBookController.swift */,
+				D10884151CBBB7A40055311F /* PhotoPickerViewController.swift */,
 			);
 			name = C;
 			sourceTree = "<group>";
@@ -360,6 +367,7 @@
 		D135274F1CB65F08004754E7 /* V */ = {
 			isa = PBXGroup;
 			children = (
+				D137A68A1CB904390032E211 /* BookTitleView.swift */,
 			);
 			name = V;
 			sourceTree = "<group>";
@@ -382,6 +390,7 @@
 		D1E75D131CB7723000790FC1 /* 3rdKit */ = {
 			isa = PBXGroup;
 			children = (
+				D137A6861CB8AB020032E211 /* 隶变体.ttf */,
 				D1E75D161CB773AD00790FC1 /* TextFieldEffects.h */,
 				D1E75D171CB773FD00790FC1 /* TextFieldsEffects.swift */,
 				D1E75D141CB7724700790FC1 /* HoshiTextField.swift */,
@@ -460,6 +469,7 @@
 				TargetAttributes = {
 					D1201AA01CB500FF00551E1B = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = JQABFF2G58;
 					};
 					D1201AB41CB5010000551E1B = {
 						CreatedOnToolsVersion = 7.3;
@@ -496,6 +506,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D137A6871CB8ACA50032E211 /* 隶变体.ttf in Resources */,
 				D1201AAF1CB500FF00551E1B /* LaunchScreen.storyboard in Resources */,
 				D1201AAC1CB500FF00551E1B /* Assets.xcassets in Resources */,
 				D1201AD31CB5011200551E1B /* PodFile in Resources */,
@@ -581,6 +592,8 @@
 				D13527521CB65F55004754E7 /* GeneralFactory.swift in Sources */,
 				D1201AE41CB5066800551E1B /* PushViewController.swift in Sources */,
 				D1201AE01CB5064500551E1B /* RankViewController.swift in Sources */,
+				D137A68B1CB904390032E211 /* BookTitleView.swift in Sources */,
+				D10884161CBBB7A40055311F /* PhotoPickerViewController.swift in Sources */,
 				D1E75D151CB7724700790FC1 /* HoshiTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -721,10 +734,13 @@
 			baseConfigurationReference = 5972E8882E4584C687BA0757 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = RentST/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hxbxcode.RentST;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -733,10 +749,13 @@
 			baseConfigurationReference = F323F78463BDE8CF257E84DE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = RentST/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hxbxcode.RentST;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
